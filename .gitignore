@@ -1,0 +1,20 @@
+# —— Secrets: never commit API keys or credentials ——
+.env
+.env.*
+*.env
+*.key
+*.pem
+*.secret
+secrets.json
+
+# —— Generated outputs: downloaded images stay local, not in git ——
+midjourney_out/
+*.png
+*.jpg
+*.jpeg
+*.webp
+
+# —— Python caches ——
+__pycache__/
+*.pyc
+*.pyo
